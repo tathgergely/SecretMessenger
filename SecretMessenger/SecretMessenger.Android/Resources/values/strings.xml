@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_name">Secret Messenger</string>
+    <string name="facebook_app_id">2894662664155770</string>
+    <string name="fb_login_protocol_scheme">9fae29111d792f1c5c58f45f6704d040</string>
+</resources>

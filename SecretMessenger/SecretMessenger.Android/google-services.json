@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "782149357171",
+    "project_id": "messageapp-133fe",
+    "storage_bucket": "messageapp-133fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782149357171:android:cee2ff3543ba639fb9e406",
+        "android_client_info": {
+          "package_name": "hu.bme.SecretMessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782149357171-a6aqi6g9as8ife4q4011ncd1gff520bf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hu.bme.SecretMessenger",
+            "certificate_hash": "e2c62bd0a0569078b270d4dd1afe66069555d87c"
+          }
+        },
+        {
+          "client_id": "782149357171-dt5hds2tqlp1snsn18al1lqa6qq4a4fe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1KJnOhnreqS2GeiltdYpua2PKGjuNubo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782149357171-dt5hds2tqlp1snsn18al1lqa6qq4a4fe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "782149357171-pqrab1hqlf9rsc21s0o6qkdqfr5lqotc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "hu.bme.cloudmessenger"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SecretMessenger.Views.LoginPage"
+             Title="Login"
+             Visual="Material">
+    <ContentPage.Content>
+        <StackLayout Padding="20,20,20,10" >
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center">
+                <Label Text="Welcome to" FontSize="70"/>
+                <Label Text="Secret Messenger" FontSize="35" HorizontalOptions="Center"/>
+            </StackLayout>
+            
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center" >
+                <Label Text="Login via" FontSize="25" HorizontalOptions="Center"/>
+                <Button Text="Facebook"
+                        Clicked="OnFacebookLogin_Clicked"
+                        HeightRequest="45"
+                        TextColor="White"
+                        BackgroundColor="#4768AD"
+                        WidthRequest="280"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="FillAndExpand"/>
+                <Label Text="or" FontSize="25" HorizontalOptions="Center"/>
+                <Button Text="Google"
+                        Clicked="OnGoogleLogin_Clicked"
+                        HeightRequest="45"
+                        TextColor="Black"
+                        BackgroundColor="#F8F8F8"
+                        WidthRequest="280"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="FillAndExpand"/>
+                
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

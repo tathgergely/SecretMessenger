@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms"
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+          x:Class="SecretMessenger.Views.Cells.OutgoingMessageCell">
+    <Grid Padding="5">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        
+        <Frame HorizontalOptions="End" Grid.Row="0" BorderColor="Transparent" HasShadow="False" BackgroundColor="#03A9F4" >
+            <Label TextColor="White" HorizontalTextAlignment="End" Text="{Binding Text}" />
+        </Frame>
+        <Label Grid.Row="1" FontSize="Micro" HorizontalTextAlignment="End"  Text="{Binding MessageDateTime, StringFormat='{0:MM/dd/yyyy hh:mm tt}'}" TextColor="Gray"/>
+    
+    </Grid>
+</ViewCell>

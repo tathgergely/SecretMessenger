@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SecretMessenger.Views.HomePage"
+             Visual="Material">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Label Text="Welcome" HorizontalOptions="Center" FontSize="50" />
+
+            <StackLayout Orientation="Horizontal"
+                         Padding="10,10,10,0">
+
+            <Frame
+                Margin="0,15,0,0"
+                CornerRadius="100"
+                HeightRequest="80"
+                WidthRequest="80"
+                HasShadow="False"
+                HorizontalOptions="Center"
+                Padding="0"
+                IsClippedToBounds="True">
+                <Image Source="{Binding User.Picture}"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" 
+                       WidthRequest="80"
+                       HeightRequest="80"/>
+            </Frame>
+
+            <Label
+                VerticalOptions="Center" WidthRequest="200" FontSize="Large"
+                Text="{Binding User.Name}" />
+            </StackLayout>
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Button Text="Create new code" Clicked="Create_Lock_Clicked" />
+                <Button Text="Join" Clicked="Join_Clicked"/>
+                <Button Text="Logout" Clicked="Logout_Clicked" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
